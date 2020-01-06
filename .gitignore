@@ -1,0 +1,35 @@
+#Resource 는 github release 태그에서 따로 관리한다.
+Assets/Alchera/Resources/Android/
+Assets/Alchera/Resources/iOS/
+Assets/Alchera/Resources/MacOS/
+Assets/Alchera/Resources/Windows/
+
+Assets/Alchera/Resources/Android.meta
+Assets/Alchera/Resources/iOS.meta
+Assets/Alchera/Resources/MacOS.meta
+Assets/Alchera/Resources/Windows.meta
+
+### Unity ###
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/Logs/
+/[Bb]uild/
+/[Bb]uilds/
+/*.csproj
+/*.sln
+
+# 모든 폴더에서 불포함 파일들
+desktop.ini
+.DS_Store
+.vs/
+bin/
+obj/
+*.pdb
+.vscode
+.idea/
+.settings
+.project
+.classpath
+*.mdb
+*.symbols.zip
