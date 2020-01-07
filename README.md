@@ -46,11 +46,24 @@ Complex(face+hand)
 
 > 1. **Clone** or **Download** this repository.
 
-> 2. open it with Unity3D
-> we've tested with Unity3D version 2019.2.13f
-> ![석촌호수 러버덕](http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0)
-> we've tested with Unity3D version 2019.2.13f
-3.
+> 2. open it with **Unity3D**<br>
+> we've tested with Unity3D version **`2019.2.13f`** `Universal RP`<br>
+> `Universal RP` is optional, but without setup, graphics can be broken as follows:<br>
+> <img width="600" src="https://i.imgur.com/vNeZtmm.png"/><br>
+> If you don't mind, it will work in the 2018 as well.
+
+> 3. If iOS needed. copy opencv2.framework to Assets/Alchera/Plugins/iOS<br>
+> <img width="500" src="https://i.imgur.com/OLnMasu.png"/><br>
+> 4. Set Unity3D perference.<br>
+> `Window - Package Manager`<br>
+> <img width="500" src="https://i.imgur.com/HbmbiEA.png"/><br>
+> We use UniversalRP 6.9.2<br><br>
+> `File - Build Settings`<br>
+> <img width="500" src="https://i.imgur.com/5VGvf8E.png"/><br>
+> Place the `Splash`scene first and the `DemoUI`scene second.<br><br>
+> `Edit - Project Settings - Graphics`<br>
+> <img width="500" src="https://i.imgur.com/qalWxXS.png"/><br>
+> Set `Scriptable Render PipelineAsset` to `LightweightAsset`. for UniversalRP<br><br>
 
 ---
 ### Until when can I use it?
