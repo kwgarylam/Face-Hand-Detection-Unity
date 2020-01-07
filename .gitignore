@@ -1,13 +1,5 @@
-#Resource 는 github release 태그에서 따로 관리한다.
-Assets/Alchera/Resources/Android/
-Assets/Alchera/Resources/iOS/
-Assets/Alchera/Resources/MacOS/
-Assets/Alchera/Resources/Windows/
-
-Assets/Alchera/Resources/Android.meta
-Assets/Alchera/Resources/iOS.meta
-Assets/Alchera/Resources/MacOS.meta
-Assets/Alchera/Resources/Windows.meta
+###opencv2.framework###
+opencv2.framework
 
 ### Unity ###
 /[Ll]ibrary/
